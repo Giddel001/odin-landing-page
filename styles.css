@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.section1{
+    width: 100vw;
+    height: 25vh;
+    background-color: #1F2937;
+    display: flex;
+}
+.headerLogo{
+    margin-left: 5vw;
+}
+.headerLink {
+    margin-right: 5vw;
+}
+.headerLogo, .headerLink{
+    color: white;
+    margin-top: 15px;
+}
+.logoSection{
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+}
+.linkSection {
+    width: 50vw;
+    display: flex;
+    justify-content: right;
+}
