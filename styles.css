@@ -6,9 +6,9 @@
 }
 .section1{
     width: 100vw;
-    height: 25vh;
     background-color: #1F2937;
     display: flex;
+    flex-wrap: wrap;
 }
 .headerLogo{
     margin-left: 5vw;
@@ -29,4 +29,49 @@
     width: 50vw;
     display: flex;
     justify-content: right;
+}
+
+
+
+.subsection1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.firstsubsection {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 5vw;
+}
+
+.firstsubsection > h1,p{
+     color: white;
+}
+
+.firstsubsection > button{
+    color: white;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 9px;
+    padding-left: 9px;
+    width: fit-content;
+}
+.secondsubsection > img {
+    width: 300px;
+    height: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.secondsubsection {
+    width: 40vw;
+    margin-left: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-self: center; 
 }
