@@ -114,3 +114,17 @@ p{
     flex-direction: row;
     width: 70vw;
 }
+
+/* Section 3 */
+.section3{
+    background-color: #E5E7EB;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.quote{
+    font-style: italic;
+}
+.section3 > b{
+    align-self: flex-end;
+}
