@@ -128,3 +128,45 @@ p{
 .section3 > b{
     align-self: flex-end;
 }
+
+/* Section 4 */
+.section4{
+    display: flex;
+    background-color: white;
+    width: 100vw;
+    justify-content: center;
+    padding: 30px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    width: 80vw;
+    padding: 15px;
+    border-radius: 3px;
+}
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    flex: 5 1 0;
+}
+.textContainer > p{
+    color: white;
+}
+.textContainer> b {
+    color: white;
+}
+.buttonContainer{
+    align-self: center;
+    flex: 1 4 0;
+}
+.cardButton{
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 3px;
+}
